@@ -11,4 +11,4 @@
  * The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.
  * Strategy lets the algorithm vary independently from clients that use it.
  */
-package dev.pdmnhn.chapter01;
+package dev.pdmnhn.patterns.strategy;

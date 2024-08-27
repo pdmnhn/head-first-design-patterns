@@ -1,9 +1,9 @@
-package dev.pdmnhn.chapter01;
+package dev.pdmnhn.patterns.strategy;
 
-import dev.pdmnhn.chapter01.duck.Duck;
-import dev.pdmnhn.chapter01.duck.MallardDuck;
-import dev.pdmnhn.chapter01.duck.ModelDuck;
-import dev.pdmnhn.chapter01.fly.FlyRocketPowered;
+import dev.pdmnhn.patterns.strategy.duck.Duck;
+import dev.pdmnhn.patterns.strategy.duck.MallardDuck;
+import dev.pdmnhn.patterns.strategy.duck.ModelDuck;
+import dev.pdmnhn.patterns.strategy.fly.FlyRocketPowered;
 
 
 public class MiniDuckSimulator {

@@ -1,7 +1,7 @@
-package dev.pdmnhn.chapter01.duck;
+package dev.pdmnhn.patterns.strategy.duck;
 
-import dev.pdmnhn.chapter01.fly.FlyWithWings;
-import dev.pdmnhn.chapter01.quack.Quack;
+import dev.pdmnhn.patterns.strategy.fly.FlyWithWings;
+import dev.pdmnhn.patterns.strategy.quack.Quack;
 
 
 public class MallardDuck extends Duck {

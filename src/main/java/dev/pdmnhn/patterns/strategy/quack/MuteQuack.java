@@ -1,4 +1,4 @@
-package dev.pdmnhn.chapter01.quack;
+package dev.pdmnhn.patterns.strategy.quack;
 
 public class MuteQuack implements QuackBehavior {
     @Override

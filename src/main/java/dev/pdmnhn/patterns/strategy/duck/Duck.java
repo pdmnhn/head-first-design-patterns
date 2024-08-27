@@ -1,7 +1,7 @@
-package dev.pdmnhn.chapter01.duck;
+package dev.pdmnhn.patterns.strategy.duck;
 
-import dev.pdmnhn.chapter01.fly.FlyBehavior;
-import dev.pdmnhn.chapter01.quack.QuackBehavior;
+import dev.pdmnhn.patterns.strategy.fly.FlyBehavior;
+import dev.pdmnhn.patterns.strategy.quack.QuackBehavior;
 
 
 public abstract class Duck {
