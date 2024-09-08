@@ -11,5 +11,6 @@ public abstract class PizzaStore {
         pizza.box();
         return pizza;
     }
-    abstract public Pizza createPizza(String type);
+
+    public abstract Pizza createPizza(String type);
 }

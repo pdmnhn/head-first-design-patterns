@@ -1,22 +1,23 @@
 package dev.pdmnhn.patterns.factory.pizzastore.pizza;
 
 import java.util.List;
+import dev.pdmnhn.patterns.factory.pizzastore.ingredients.Cheese;
+import dev.pdmnhn.patterns.factory.pizzastore.ingredients.Clams;
+import dev.pdmnhn.patterns.factory.pizzastore.ingredients.Dough;
+import dev.pdmnhn.patterns.factory.pizzastore.ingredients.Sauce;
+import dev.pdmnhn.patterns.factory.pizzastore.ingredients.Veggies;
 
 
 public abstract class Pizza {
     protected String name;
-    protected String dough;
-    protected String sauce;
-    protected List<String> toppings;
 
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding toppings: ");
-        for(String topping: toppings) {
-            System.out.println("\t" + topping);
-        }
-    }
+    protected Dough dough;
+    protected Sauce sauce;
+    protected Veggies[] veggies;
+    protected Cheese cheese;
+    protected Clams clam;
+
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("Baking for 25 minutes at 350F...");
@@ -28,6 +29,10 @@ public abstract class Pizza {
 
     public void box() {
         System.out.println("Place pizza in official PizzaStore box");
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getName() {
