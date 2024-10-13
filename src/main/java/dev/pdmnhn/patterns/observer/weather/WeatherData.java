@@ -6,7 +6,6 @@ import java.util.Set;
 import dev.pdmnhn.patterns.observer.Observer;
 import dev.pdmnhn.patterns.observer.Subject;
 
-
 public class WeatherData implements Subject {
     private final Set<Observer> observers;
     private float temperature;

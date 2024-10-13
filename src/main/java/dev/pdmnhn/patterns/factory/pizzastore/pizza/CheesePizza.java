@@ -2,7 +2,6 @@ package dev.pdmnhn.patterns.factory.pizzastore.pizza;
 
 import dev.pdmnhn.patterns.factory.pizzastore.ingredients.PizzaIngredientFactory;
 
-
 public class CheesePizza extends Pizza {
     private final PizzaIngredientFactory pizzaIngredientFactory;
 

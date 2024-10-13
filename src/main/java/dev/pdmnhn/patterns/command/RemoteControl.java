@@ -3,7 +3,6 @@ package dev.pdmnhn.patterns.command;
 import java.util.Arrays;
 import dev.pdmnhn.patterns.command.commands.Command;
 
-
 public class RemoteControl {
     private static final int BUTTONS_COUNT = 7;
     private static final Command NO_COMMAND = new NoCommand();

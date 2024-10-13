@@ -7,7 +7,6 @@ import dev.pdmnhn.patterns.factory.pizzastore.ingredients.Dough;
 import dev.pdmnhn.patterns.factory.pizzastore.ingredients.Sauce;
 import dev.pdmnhn.patterns.factory.pizzastore.ingredients.Veggies;
 
-
 public abstract class Pizza {
     protected String name;
 

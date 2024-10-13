@@ -2,7 +2,6 @@ package dev.pdmnhn.patterns.decorator.beverages.condiments;
 
 import dev.pdmnhn.patterns.decorator.beverages.Beverage;
 
-
 public class Soy extends CondimentDecorator {
     public Soy(Beverage beverage) {
         this.beverage = beverage;

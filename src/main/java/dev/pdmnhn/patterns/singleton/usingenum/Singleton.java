@@ -2,6 +2,7 @@ package dev.pdmnhn.patterns.singleton.usingenum;
 
 public enum Singleton {
     UNIQUE_INSTANCE;
+
     private String name;
 
     Singleton() {

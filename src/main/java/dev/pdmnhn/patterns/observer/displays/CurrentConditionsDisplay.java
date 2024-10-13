@@ -3,7 +3,6 @@ package dev.pdmnhn.patterns.observer.displays;
 import dev.pdmnhn.patterns.observer.Observer;
 import dev.pdmnhn.patterns.observer.weather.WeatherData;
 
-
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;
     private float humidity;

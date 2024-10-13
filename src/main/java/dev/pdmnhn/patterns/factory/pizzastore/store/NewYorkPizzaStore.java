@@ -6,7 +6,6 @@ import dev.pdmnhn.patterns.factory.pizzastore.pizza.CheesePizza;
 import dev.pdmnhn.patterns.factory.pizzastore.pizza.ClamPizza;
 import dev.pdmnhn.patterns.factory.pizzastore.pizza.Pizza;
 
-
 public class NewYorkPizzaStore extends PizzaStore {
     @Override
     public Pizza createPizza(String type) {

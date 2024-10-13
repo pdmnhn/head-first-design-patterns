@@ -2,7 +2,6 @@ package dev.pdmnhn.patterns.decorator.beverages.condiments;
 
 import dev.pdmnhn.patterns.decorator.beverages.Beverage;
 
-
 public class Mocha extends CondimentDecorator {
     public Mocha(Beverage beverage) {
         this.beverage = beverage;

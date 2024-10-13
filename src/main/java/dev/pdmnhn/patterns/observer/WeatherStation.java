@@ -5,7 +5,6 @@ import dev.pdmnhn.patterns.observer.displays.DisplayElement;
 import dev.pdmnhn.patterns.observer.displays.StatisticsTemperatureDisplay;
 import dev.pdmnhn.patterns.observer.weather.WeatherData;
 
-
 public class WeatherStation {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
