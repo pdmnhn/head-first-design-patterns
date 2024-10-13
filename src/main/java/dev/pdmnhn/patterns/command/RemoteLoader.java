@@ -9,7 +9,6 @@ import dev.pdmnhn.patterns.command.commands.on.StereoPlayerWithCdOnCommand;
 import dev.pdmnhn.patterns.command.receivers.Light;
 import dev.pdmnhn.patterns.command.receivers.StereoPlayer;
 
-
 public class RemoteLoader {
     public static void main(String[] args) {
         RemoteControl remoteControl = new RemoteControl();

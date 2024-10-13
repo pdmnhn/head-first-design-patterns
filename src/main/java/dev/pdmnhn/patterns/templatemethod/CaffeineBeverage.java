@@ -5,7 +5,7 @@ public abstract class CaffeineBeverage {
         boilWater();
         brew();
         pourInCup();
-        if(shouldAddCondiments()) {
+        if (shouldAddCondiments()) {
             addCondiments();
         } else {
             System.out.println("Skipping adding condiments");

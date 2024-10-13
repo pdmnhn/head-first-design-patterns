@@ -7,7 +7,7 @@
  * <p>
  * 3. Favour composition over inheritance.
  * <p>
- * Pattern used in this chapter: <b>Singleton Pattern</b>,
- * The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
+ * Pattern used in this chapter: <b>Singleton Pattern</b>, The Singleton Pattern ensures a class has only one instance,
+ * and provides a global point of access to it.
  */
 package dev.pdmnhn.patterns.singleton;

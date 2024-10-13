@@ -3,7 +3,6 @@ package dev.pdmnhn.patterns.decorator.beverages;
 import dev.pdmnhn.patterns.decorator.beverages.condiments.Mocha;
 import dev.pdmnhn.patterns.decorator.beverages.condiments.Whip;
 
-
 public class StarbuzzCoffee {
     public static void main(String[] args) {
         Beverage beverage = new Espresso(Beverage.Size.TALL);

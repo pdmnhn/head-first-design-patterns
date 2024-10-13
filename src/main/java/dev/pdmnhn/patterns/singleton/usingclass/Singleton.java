@@ -4,6 +4,7 @@ public class Singleton {
     private static volatile Singleton singleInstance;
 
     private String name;
+
     private Singleton() {
         this.name = "I am a singleton object implemented with class";
     }
@@ -16,7 +17,7 @@ public class Singleton {
     public static Singleton getInstance() {
         if (singleInstance == null) {
             synchronized (Singleton.class) {
-                if(singleInstance == null) {
+                if (singleInstance == null) {
                     singleInstance = new Singleton();
                 }
             }

@@ -5,7 +5,6 @@ import dev.pdmnhn.patterns.strategy.duck.MallardDuck;
 import dev.pdmnhn.patterns.strategy.duck.ModelDuck;
 import dev.pdmnhn.patterns.strategy.fly.FlyRocketPowered;
 
-
 public class MiniDuckSimulator {
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();

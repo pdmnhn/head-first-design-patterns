@@ -1,7 +1,9 @@
 package dev.pdmnhn.patterns.decorator.beverages;
 
 public abstract class Beverage {
-    public enum Size {TALL, GRANDE, VENTI}
+    public enum Size {
+        TALL, GRANDE, VENTI
+    }
 
     protected String description = "Unknown beverage";
     protected Size size;

@@ -3,7 +3,6 @@ package dev.pdmnhn.patterns.strategy.duck;
 import dev.pdmnhn.patterns.strategy.fly.FlyBehavior;
 import dev.pdmnhn.patterns.strategy.quack.QuackBehavior;
 
-
 public abstract class Duck {
     protected FlyBehavior flyBehavior;
     protected QuackBehavior quackBehavior;
